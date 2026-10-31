@@ -1,0 +1,182 @@
+================================================================================
+                           DOWNLOAD - IMAGE v1.0.0
+                 INSTRUCCIONES DE INSTALACION Y USO
+================================================================================
+
+================================================================================
+1. ¿QUÉ ES ESTA EXTENSIÓN?
+================================================================================
+
+Download - Image es una extensión de navegador que te permite descargar imágenes
+de cualquier página web de forma rápida y sencilla.
+
+Funciona en navegadores basados en Chromium:
+- Google Chrome
+- Microsoft Edge
+- Opera
+- Opera GX
+- Brave / Brave Nightly
+
+Características principales:
+- Detecta imágenes automáticamente en cualquier página web
+- Detecta imágenes cargadas dinámicamente (lazy-load, carruseles, redes sociales)
+- Filtros por URL, dominio y tamaño (ancho y alto)
+- Descarga una o varias imágenes a la vez
+- Barra de progreso en tiempo real
+- Historial de descargas
+- Modo oscuro por defecto
+- Renombrado de archivos y organización en subcarpetas
+- Auto-scroll para cargar más imágenes automáticamente
+
+================================================================================
+2. REQUISITOS
+================================================================================
+
+- Navegador basado en Chromium (Chrome, Edge, Opera, Brave, etc.)
+- No se requiere instalar programas adicionales
+- No se requiere conexión a Internet para usar la extensión (solo para descargar imágenes)
+
+================================================================================
+3. CÓMO INSTALAR LA EXTENSIÓN (MODO DESARROLLO)
+================================================================================
+
+Paso 1: Descarga los archivos
+--------------------------------
+Descarga todo el contenido de este repositorio en una carpeta de tu computadora.
+
+Paso 2: Abre el navegador
+--------------------------------
+Abre Google Chrome (o Edge, Opera, Brave).
+
+Paso 3: Ve a la página de extensiones
+--------------------------------
+Escribe en la barra de direcciones:
+   chrome://extensions/
+y presiona Enter.
+
+Paso 4: Activa el "Modo de desarrollador"
+--------------------------------
+En la esquina SUPERIOR DERECHA de la página, activa el interruptor que dice
+"Modo de desarrollador".
+
+Paso 5: Carga la extensión sin empaquetar
+--------------------------------
+Haz clic en el botón que dice "Cargar sin empaquetar" (o "Load unpacked").
+Selecciona la carpeta donde descargaste este proyecto y haz clic en "Abrir".
+
+Paso 6: Verifica la instalación
+--------------------------------
+Verás el icono de la extensión (una flecha) en la barra de herramientas de Chrome.
+Si no lo ves, haz clic en el icono de piezas de rompecabezas (▭) y fija la
+extensión a la barra de herramientas.
+
+================================================================================
+4. CÓMO USAR LA EXTENSIÓN
+================================================================================
+
+Paso 1: Abre una página web con imágenes
+--------------------------------
+Entra a cualquier sitio web que tenga imágenes (por ejemplo, un blog, una
+galería de fotos, redes sociales, etc.).
+
+Paso 2: Abre la extensión
+--------------------------------
+Haz clic en el icono de la extensión (la flecha) en la barra de herramientas.
+
+Paso 3: Espera al escaneo
+--------------------------------
+La extensión escaneará automáticamente la página y mostrará todas las imágenes
+encontradas. Esto puede tomar unos segundos dependiendo de cuántas imágenes
+haya en la página.
+
+Paso 4: Filtra las imágenes (opcional)
+--------------------------------
+Puedes usar los filtros para mostrar solo las imágenes que te interesan:
+
+- Filtrar por URL: Escribe parte de la dirección de la imagen.
+  Ejemplo: escribiendo "foto" mostrará solo imágenes que tengan "foto" en su
+  dirección web.
+
+- Filtro por dominio: Permite mostrar solo imágenes de ciertos sitios web o
+  bloquear imágenes de ciertos sitios.
+
+- Filtro por tamaño: Permite mostrar solo imágenes más grandes o más pequeñas
+  que un cierto número de píxeles.
+
+Paso 5: Selecciona las imágenes
+--------------------------------
+Haz clic en cada imagen que quieras descargar para seleccionarla (se marcará
+con un borde de color). También puedes hacer clic en "Seleccionar todo" para
+seleccionar todas las imágenes mostradas.
+
+Paso 6: Descarga
+--------------------------------
+Haz clic en el botón "Descargar" para iniciar la descarga de las imágenes
+seleccionadas. Verás una barra de progreso mostrando el estado de cada descarga.
+
+================================================================================
+5. OPCIONES DE LA EXTENSIÓN
+================================================================================
+
+Haz clic en el icono de la extensión y luego en el botón de "Opciones" (el
+icono de engranaje ⚙) para acceder a la página de configuración.
+
+Opciones disponibles:
+
+- Mostrar confirmación de descarga: Activa o desactiva la ventana de
+  confirmación antes de iniciar una descarga masiva.
+
+- Mostrar campo de renombrado de archivos: Activa u oculta el campo para
+  renombrar los archivos descargados automáticamente.
+
+- Mostrar la URL al pasar el mouse: Muestra la dirección web de cada imagen
+  cuando pasas el cursor sobre ella.
+
+- Mostrar el botón "Abrir": Muestra un botón para abrir la imagen en una
+  pestaña nueva.
+
+- Mostrar el botón "Descargar": Muestra un botón para descargar cada imagen
+  individualmente sin necesidad de seleccionarla primero.
+
+- Columnas: Número de columnas para mostrar las imágenes en la galería.
+
+- Ancho de pantalla mínimo/máximo: Filtra imágenes por su tamaño en píxeles.
+
+================================================================================
+6. SOLUCIÓN DE PROBLEMAS
+================================================================================
+
+¿La extensión no aparece en la barra de herramientas?
+- Haz clic en el icono de piezas de rompecabezas (▭) en la barra de
+  herramientas de Chrome y asegúrate de que el icono de la extensión esté
+  fijado (activado).
+
+¿No se muestran imágenes en la página?
+- Asegúrate de que la página tenga imágenes y de que hayas hecho clic en el
+  icono de la extensión.
+- Algunas páginas bloquean la detección de imágenes por razones de seguridad.
+
+¿No se descargan las imágenes?
+- Asegúrate de que el navegador no esté bloqueando las descargas emergentes.
+- Algunas páginas web impiden la descarga de sus imágenes por protección de
+  derechos de autor.
+
+¿La extensión no funciona en modo incógnito?
+- Las extensiones no funcionan en modo incógnito a menos que las habilites
+  explícitamente en la configuración de extensiones de Chrome.
+
+¿La extensión no funciona en Firefox o Safari?
+- Esta versión está diseñada para navegadores basados en Chromium
+  (Chrome, Edge, Opera, Brave). Para Firefox y Safari se requiere una
+  versión adaptada.
+
+================================================================================
+7. CONTACTO Y SOPORTE
+================================================================================
+
+Si tienes problemas o sugerencias, puedes abrir un "issue" (incidencia) en el
+repositorio de GitHub de este proyecto.
+
+================================================================================
+                           FIN DE LAS INSTRUCCIONES
+================================================================================

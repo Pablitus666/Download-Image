@@ -1,0 +1,44 @@
+# ============================================================================
+# Download - Image — .gitignore
+# ============================================================================
+
+# Dependencias de Node.js
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.local
+.env.*.local
+
+# Editores de código
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Extensiones de Chrome empaquetadas
+*.crx
+*.zip
+*.tar.gz
+
+# Archivos temporales y de construcción
+dist/
+build/
+.tmp/
+
+# Librerías de terceros (se incluyen en el repositorio por simplicidad,
+# pero si se usa un gestor de paquetes, descomentar la siguiente línea):
+# lib/
+
+# Imágenes generadas por el usuario o pruebas
+images/me.jpg
+images/opciones.png
+*.psd
+*.psb

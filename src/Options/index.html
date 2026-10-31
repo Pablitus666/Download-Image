@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Image Downloader | Options</title>
+
+  <!-- Estilos principales de la extensión -->
+  <link rel="stylesheet" href="/stylesheets/main.css" type="text/css" />
+  <style>
+    body {
+      margin: 0;
+      background-color: var(--neutral-lighter);
+    }
+
+    main {
+      box-shadow: var(--elevation-1);
+      min-width: 400px;
+      max-width: 640px;
+      width: 100%;
+      margin: 0 auto 12rem auto;
+      padding: 1.5rem;
+      background-color: var(--neutral-lightest);
+    }
+
+    h1 {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 img {
+      height: 32px;
+    }
+
+    select,
+    input[type='color'],
+    input[type='number'] {
+      width: 70px;
+    }
+
+    input[type='number'] {
+      margin-right: 2px;
+      text-align: right;
+      padding-right: 6px;
+      appearance: textfield;
+      -moz-appearance: textfield;
+    }
+
+    /* Ocultar spinners nativos del navegador (Chrome/Edge/Safari) para evitar
+       que se superpongan sobre los botones personalizados ▲/▼. */
+    input[type='number']::-webkit-inner-spin-button,
+    input[type='number']::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
+    /* Contenedor de botones personalizados para incrementar/decrementar valores numéricos. */
+    .number-spinner {
+      display: inline-flex;
+      flex-direction: column;
+      margin-left: 4px;
+    }
+
+    .number-spinner button {
+      width: 20px;
+      height: 10px;
+      padding: 0;
+      border: 1px solid var(--border-color);
+      background: var(--input-background);
+      color: var(--text-primary);
+      cursor: pointer;
+      font-size: 9px;
+      line-height: 1;
+    }
+
+    .number-spinner button:hover {
+      background: var(--neutral);
+    }
+
+    .number-spinner button:active {
+      background: var(--accent);
+    }
+
+    input[type='button'] {
+      min-width: 80px;
+      margin: 6px 2px 0 2px;
+    }
+
+    #notifications {
+      position: fixed;
+      bottom: 8px;
+      left: 8px;
+      display: flex;
+      gap: 8px;
+      flex-direction: column-reverse;
+      max-width: 100%;
+      width: 320px;
+    }
+
+    #notifications>.notification {
+      border-radius: var(--border-radius-md);
+      padding: 8px 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <main></main>
+
+  <!-- jQuery (dependencia heredada de versiones anteriores) -->
+  <script src="/lib/jquery-3.5.1.min.js"></script>
+
+  <!-- Valores por defecto de opciones (inicializa localStorage si está vacío) -->
+  <script src="/src/defaults.js"></script>
+
+  <!-- Componente principal de la página de opciones (módulo ES) -->
+  <script type="module" src="/src/Options/Options.js"></script>
+</body>
+
+</html>

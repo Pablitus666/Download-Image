@@ -1,0 +1,73 @@
+{
+  // Identificador de la extensión como se muestra en la barra de herramientas y administrador de extensiones
+  "name": "Download - Image",
+  // Descripción corta mostrada en la tienda de extensiones y página de detalles
+  "description": "Descarga imágenes de cualquier página web con filtros avanzados por tamaño y URL, progreso en tiempo real e historial de descargas.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{download-image@example.com}",
+      "strict_min_version": "109.0"
+    }
+  },
+  "icons": {
+    "16": "images/icon_16.png",
+    "32": "images/icon_32.png",
+    "48": "images/icon_48.png",
+    "128": "images/icon_128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/flecha.png",
+      "32": "images/flecha.png",
+      "48": "images/flecha.png",
+      "128": "images/flecha.png"
+    },
+    "default_popup": "src/Popup/index.html",
+    "default_title": "Download - Image"
+  },
+  "options_page": "src/Options/index.html",
+  "background": {
+    "service_worker": "src/background/serviceWorker.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "src/imageScanner.js",
+        "src/contentScript.js"
+      ],
+      "css": [
+        "stylesheets/main.css"
+      ],
+      "run_at": "document_idle",
+      "world": "MAIN"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "images/*",
+        "src/contentScript.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads",
+    "storage",
+    "notifications",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
