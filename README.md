@@ -12,7 +12,7 @@ Extensión de navegador para descargar imágenes de cualquier página web con fi
 
 ---
 
-![Social Preview](images/Preview.png)
+![Social Preview](images/screenshot.png)
 
 ---
 
@@ -38,8 +38,8 @@ Extensión de navegador para descargar imágenes de cualquier página web con fi
 
 1. **Descarga o clona este repositorio**:
    ```bash
-   git clone https://github.com/TU_USUARIO/download-image.git
-   cd download-image
+   git clone https://github.com/Pablitus666/Download-Image.git
+   cd Download-Image v1.0.0
    ```
 
 2. **Abre Google Chrome** (o Edge, Opera, Brave).
@@ -86,7 +86,6 @@ La extensión estará lista inmediatamente después de cargarla. No requiere con
 - Empieza con un filtro de tamaño moderado (por ejemplo, 200x200 píxeles) para evitar descargar íconos y avatares pequeños
 - Usa el filtro por URL para buscar imágenes de sitios específicos
 - Usa el filtro por dominio para permitir o bloquear imágenes de ciertos sitios web
-- Activa el auto-scroll en páginas con carga progresiva para capturar más imágenes
 
 ### Filtros de imagen
 
@@ -161,7 +160,6 @@ Este repositorio organiza el flujo de trabajo y la experiencia de uso. No implic
 - [x] Historial persistente de descargas
 - [x] Modo oscuro por defecto
 - [x] Renombrado de archivos y organización en subcarpetas
-- [x] Auto-scroll para cargar más imágenes
 - [x] Interfaz de usuario completa con popup y opciones
 - [x] Pruebas funcionales en Chrome, Edge, Opera y Brave
 
@@ -169,7 +167,7 @@ El estado estable refleja las pruebas realizadas hasta el momento. No implica qu
 
 ## 📌 Repositorio
 
-[github.com/TU_USUARIO/download-image](https://github.com/TU_USUARIO/download-image)
+[github.com/Pablitus666/Download-Image](https://github.com/Pablitus666/Download-Image)
 
 ---
 

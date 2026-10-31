@@ -60,5 +60,5 @@ Si encuentras algún problema o tienes sugerencias, abre un issue en el reposito
 
 ---
 
-**Descarga - Image** v1.0.0  
+**Download - Image** v1.0.0  
 Descarga imágenes de cualquier página web con filtros avanzados.
