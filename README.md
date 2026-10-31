@@ -12,7 +12,7 @@ Extensión de navegador para descargar imágenes de cualquier página web con fi
 
 ---
 
-![Social Preview](images/screenshot.png)
+![Social Preview](images/Preview.png)
 
 ---
 
@@ -34,7 +34,19 @@ Extensión de navegador para descargar imágenes de cualquier página web con fi
 
 ## 🚀 Empezar en Chrome (o navegadores basados en Chromium)
 
-### 📥 Instalar la extensión
+### Opción 1: Descargar desde GitHub Releases (Recomendado)
+
+1. Ve a la sección **Releases** de este repositorio en GitHub
+2. Descarga el archivo **`Download-Image-v1.0.0.zip`** del último release
+3. Descomprímelo en una carpeta de tu computadora
+4. Abre Google Chrome (o Edge, Opera, Brave)
+5. Ve a `chrome://extensions/`
+6. Activa el **"Modo de desarrollador"** (esquina superior derecha)
+7. Haz clic en el botón **"Cargar sin empaquetar"** (o **"Load unpacked"**)
+8. Selecciona la **carpeta descomprimida** (la que contiene el archivo `manifest.json`)
+9. ¡Listo! El icono de la extensión aparecerá en tu barra de herramientas
+
+### Opción 2: Clonar el repositorio
 
 1. **Descarga o clona este repositorio**:
    ```bash
