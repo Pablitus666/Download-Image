@@ -42,3 +42,6 @@ images/me.jpg
 images/opciones.png
 *.psd
 *.psb
+
+# Carpeta de salida de builds
+Output/
